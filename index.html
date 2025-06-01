@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>HOME PAGE</title>
+</head>
+<body>
+    <header>
+       <h1>Where in the world?</h1> 
+       <div class="dark_mode" id="theme-toggle">
+       <i class="fa fa-moon-o"></i>
+       <p>Dark Mode</p>
+       </div>
+    </header><hr>
+
+<div class="main" >
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search for a country..." />
+    <select id="region-filter">
+      <option value="">Filter by Region</option>
+      <option value="Africa">Africa</option>
+      <option value="America">America</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+  </div>
+<div class="grid" id="countries_container">
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
